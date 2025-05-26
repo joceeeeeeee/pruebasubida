@@ -375,7 +375,7 @@ function enviarAlMesero() {
   actualizarContador();
   alert("Pedido enviado al mesero.");
 window.location.href = "index.html";
-localStorage.removeItem("producto");
+
   // Si quieres hacer alguna acción adicional antes de redirigir, como guardar en un servidor, puedes hacerla aquí.
 }
 
